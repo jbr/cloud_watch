@@ -38,9 +38,9 @@ defmodule CloudWatch.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:aws, "~> 0.5.0", optional: true},
-      {:httpoison, "~> 0.11.1"},
-      {:credo, "~> 0.4.13", only: :dev},
+      {:aws, "~> 0.6.0", optional: true},
+      {:httpoison, "~> 1.7"},
+      {:credo, "~> 1.4", only: :dev},
       {:mock, "~> 0.3.2", only: :test},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
